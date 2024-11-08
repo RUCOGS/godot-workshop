@@ -89,7 +89,6 @@ _data = {
 }
 
 [node name="Player" type="CharacterBody2D" node_paths=PackedStringArray("anim_player", "jump_sfx", "walk_sfx", "death_sfx")]
-position = Vector2(151, 247)
 script = ExtResource("1_pwssy")
 jump_cooldown = 0.1
 anim_player = NodePath("AnimationPlayer")
